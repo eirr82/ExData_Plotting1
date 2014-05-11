@@ -9,6 +9,9 @@ data <- read.csv("C:/Users/Eirr/Downloads/exdata-data-household_power_consumptio
 
 subDates <- subset(data, data$Date == "1/2/2007" | data$Date == "2/2/2007")
 
+Sys.setlocale(locale = "C") #set locale language to english for have the names days in english instead of spanish
+
+
 #create the plot
 
  
